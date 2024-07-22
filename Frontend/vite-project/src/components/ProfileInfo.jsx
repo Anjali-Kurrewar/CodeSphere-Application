@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { TfiThought } from "react-icons/tfi";
 import { FaEye } from "react-icons/fa";
 import { formatMemberSince } from "../utils/functions";
-import LikeProfile from "./LikeProfile";
+import LikeProfile from "../pages/LikePage";
 
 const ProfileInfo = ({ userProfile }) => {
 	// const userProfile = {

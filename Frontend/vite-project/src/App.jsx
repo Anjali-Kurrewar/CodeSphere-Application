@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage"
 import LoginPage from "./pages/LoginPage"
 import SignUpPage from "./pages/SignUpPage"
 import ExplorePage from "./pages/ExplorePage"
-import LikesPage from "./pages/LikesPage"
+import LikePage from "./pages/LikePage"
 import Sidebar from "./components/Sidebar"
 import { Toaster } from "react-hot-toast"
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/login" element={<LoginPage />}/>
           <Route path="/signup" element={<SignUpPage />}/>
           <Route path="/explore" element={<ExplorePage />}/>
-          <Route path="/likes" element={<LikesPage />}/>
+          <Route path="/likes" element={<LikePage />}/>
         </Routes>
         <Toaster />
       </div>

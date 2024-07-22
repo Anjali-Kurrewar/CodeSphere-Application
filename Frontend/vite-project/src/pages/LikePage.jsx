@@ -1,6 +1,6 @@
 import { FaHeart } from "react-icons/fa";
 
-const LikesPage = () => {
+const LikePage = () => {
 	return (
 		<div className='relative overflow-x-auto shadow-md rounded-lg px-4'>
 			<table className='w-full text-sm text-left rtl:text-right bg-glass overflow-hidden'>
@@ -51,4 +51,4 @@ const LikesPage = () => {
 	);
 };
 
-export default LikesPage;
+export default LikePage;
