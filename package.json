@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon Backend/server.js"
+    "dev": "nodemon Backend/server.js",
+    "build": "npm install && npm install --prefix Frontend/vite-project && npm run build --prefix Frontend/vite-project",
+    "start": "node Backend/server.js"
   },
   "type": "module",
   "keywords": [],
