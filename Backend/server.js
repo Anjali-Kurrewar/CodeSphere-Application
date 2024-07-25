@@ -32,10 +32,10 @@ app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/explore", exploreRoutes);
 
-app.use(express.static(path.join(__dirname, "/frontend/vite-project/dist")));
+app.use(express.static(path.join(__dirname, "/Frontend/vite-project/dist")));
 
 app.get("*", (req, res) => {
-	res.sendFile(path.join(__dirname, "frontend","vite-project","dist", "index.html"));
+	res.sendFile(path.join(__dirname, "Frontend","vite-project","dist", "index.html"));
 });
 
 app.listen(PORT, () => {
