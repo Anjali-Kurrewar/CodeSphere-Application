@@ -9,7 +9,7 @@ const userSchema = new mongoose.Schema(
 		},
 		name: {
 			type: String,
-			default: "", //
+			default: "",
 		},
 		profileUrl: {
 			type: String,
