@@ -1,4 +1,4 @@
-GitHub Application
+CodeSphere Application
 
 A robust and scalable web application built using the MERN (MongoDB, Express, React, Node.js) stack, with additional features powered by Passport.js, React, and other libraries. The application is designed to provide a seamless and intuitive interface for users to manage their GitHub repositories, issues, and pull requests.
 
@@ -23,7 +23,7 @@ Technical Specifications:
 
 Benefits:
 
-- Streamlined GitHub repository management and issue tracking
+- Streamlined CodeSphere repository management and issue tracking
 - Enhanced collaboration and code review workflows
 - Improved pull request management and approval processes
 - Fast and secure user authentication and authorization
