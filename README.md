@@ -30,4 +30,4 @@ Benefits:
 - Real-time updates and notifications for repository events
 - Responsive and user-friendly interface
 
-Link to the website application :- https://my-github-application.onrender.com/
+Link to the website application :- https://codesphere-application.onrender.com/
